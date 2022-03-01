@@ -4,7 +4,7 @@
  * @typedef {Omit<ToMarkdownOptions, 'extensions'>} Options
  */
 
-import {toMarkdown} from 'mdast-util-to-markdown'
+import {toMarkdown} from '../node_modules/mdast-util-to-markdown/index.js'
 
 /** @type {import('unified').Plugin<[Options]|void[], Node, string>} */
 export default function remarkStringify(options) {
