@@ -1,5 +1,5 @@
 coverage/
-node_modules/
+# node_modules/
 packages/remark/*.d.ts
 packages/remark-cli/*.d.ts
 packages/remark-parse/lib/*.d.ts
